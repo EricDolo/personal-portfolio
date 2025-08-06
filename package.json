@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "vite",
     "deploy": "yarn build && gh-pages -d dist -f",
+    "clean": "rm -rf dist node_modules && yarn install",
 
     "build": "tsc -b && vite build",
     "build:dev": "vite build --mode development",
