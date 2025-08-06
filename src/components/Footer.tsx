@@ -33,11 +33,9 @@ const Footer = () => {
       {
         title: 'Resources',
         links: [
-          { label: 'Blog', href: '#' },
           { label: 'Portfolio', href: '#projects' },
           { label: 'Resume', href: '#' },
           { label: 'Contact', href: '#contact' },
-          { label: 'Privacy Policy', href: '#' }
         ]
       }
     ]
@@ -117,12 +115,12 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <button className="hover:text-primary smooth-transition">
+              {/* <button className="hover:text-primary smooth-transition">
                 Privacy Policy
               </button>
               <button className="hover:text-primary smooth-transition">
                 Terms of Service
-              </button>
+              </button> */}
               <span>
                 Built with React & Tailwind CSS
               </span>
