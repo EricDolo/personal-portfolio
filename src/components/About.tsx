@@ -42,7 +42,7 @@ const About = () => {
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I'm a passionate full-stack developer with 3 years of experience in building software solutions and 
-                modern web applications. My journey began with a Computer Systems Diploma from 
+                modern web applications. My journey began with a Computer Systems Engineering Diploma from 
                 Tshwane University of Technology, and I've since worked with software companies 
                 to bring innovative digital solutions to life.
               </p>

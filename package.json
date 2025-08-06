@@ -3,8 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://EricDolo.github.io/personal-portfolio",
+
   "scripts": {
     "dev": "vite",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
+
     "build": "tsc -b && vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
